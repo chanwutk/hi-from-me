@@ -1,0 +1,29 @@
+{
+  "name": "hi-from-me",
+  "version": "1.0.0",
+  "description": "hi from me",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"hi\"",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanwutk/hi-from-me.git"
+  },
+  "author": "Chanwut Kittivorawong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chanwutk/hi-from-me/issues"
+  },
+  "homepage": "https://github.com/chanwutk/hi-from-me#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
